@@ -3,9 +3,9 @@ name: Manual workfrow testing
 on:
  workflow_dispatch:
 
- jobs:
-  greet:
-  runs-on: ubuntu-latest
-  steps:
-  -name: Greet the user
-  run: exho "Hello Word"
+jobs:
+   experimental-great:
+    runs-on: ubuntu-latest
+   steps:
+     -name: Greet the user
+     run: echo "Hello Word!"
