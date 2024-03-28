@@ -5,7 +5,7 @@ on:
 
 jobs:
    experimental-great:
-    runs-on: ubuntu-latest
-   steps:
-     -name: Greet the user
-     run: echo "Hello Word!"
+    runs-on: ubuntu-lates
+    steps:
+     - name: Greet the User
+       run: echo "Hello World!"
